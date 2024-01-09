@@ -56,7 +56,7 @@ func SendOtherNotify(text string) {
 
 func SendWelcome(version string) {
 	var text = `
-👋 欢迎使用 Bepusdt，一款更好用的个人USDT收款网关，如果您看到此消息，说明机器人已经启动成功
+👋 欢迎使用 Bepusdt，USDT收款网关机器人上线成功
 
 📌当前版本：` + version + `
 📝发送命令 /start 可以开始使用
