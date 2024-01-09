@@ -5,4 +5,3 @@ git clone https://github.com/zbuse/bepusdt
 cd bepusdt
 go build -o bepusdt ./main
 #cp  bepusdt /usr/local/bepusdt/
-
