@@ -60,7 +60,7 @@ func SendWelcome(version string) {
 
 📌当前版本：` + version + `
 📝发送命令 /start 可以开始使用
-🎉开源地址 https://github.com/v03413/bepusdt
+🎉开源地址 github.com/v03413/bepusdt
 ---
 `
 	var msg = tgbotapi.NewMessage(0, text)
