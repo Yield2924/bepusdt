@@ -6,6 +6,7 @@ cd bepusdt
 go build -o bepusdt ./main
 mkdir /usr/local/bepusdt/
 install bepusdt /usr/local/bepusdt/
+install ./docs/Environment.conf /usr/local/bepusdt/
 install docs/bepusdt.service /etc/systemd/system/
 install -d static /usr/local/bepusdt/
 install -d emplates  /usr/local/bepusdt/
