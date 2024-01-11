@@ -4,4 +4,11 @@
 git clone https://github.com/zbuse/bepusdt
 cd bepusdt
 go build -o bepusdt ./main
-#cp  bepusdt /usr/local/bepusdt/
+mkdir /usr/local/bepusdt/
+install bepusdt /usr/local/bepusdt/
+install docs/bepusdt.service /etc/systemd/system/
+install -d static /usr/local/bepusdt/
+install -d emplates  /usr/local/bepusdt/
+systemctl enable bepusdt
+
+#vim /usr/local/bepusdt/Environment.conf #配置好参数后就可以启动了
